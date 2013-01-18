@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		888C421B1682211F00188388 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888C421A1682211F00188388 /* UIKit.framework */; };
+		888C421D1682211F00188388 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888C421C1682211F00188388 /* Foundation.framework */; };
+		888C421F1682211F00188388 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888C421E1682211F00188388 /* CoreGraphics.framework */; };
+		888C42251682211F00188388 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 888C42231682211F00188388 /* InfoPlist.strings */; };
+		888C42271682211F00188388 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 888C42261682211F00188388 /* main.m */; };
+		888C422B1682211F00188388 /* ViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 888C422A1682211F00188388 /* ViewAppDelegate.m */; };
+		888C422E1682211F00188388 /* ViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888C422D1682211F00188388 /* ViewViewController.m */; };
+		888C42311682211F00188388 /* ViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 888C422F1682211F00188388 /* ViewViewController.xib */; };
+		888C423C1682217D00188388 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888C423B1682217D00188388 /* QuartzCore.framework */; };
+		888C42421682218B00188388 /* button_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 888C423E1682218B00188388 /* button_01.png */; };
+		888C42431682218B00188388 /* button_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 888C423F1682218B00188388 /* button_02.png */; };
+		888C42441682218B00188388 /* close_gold.png in Resources */ = {isa = PBXBuildFile; fileRef = 888C42401682218B00188388 /* close_gold.png */; };
+		888C42451682218B00188388 /* sampleImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 888C42411682218B00188388 /* sampleImage.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		888C42161682211F00188388 /* TDResizerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDResizerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		888C421A1682211F00188388 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		888C421C1682211F00188388 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		888C421E1682211F00188388 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		888C42221682211F00188388 /* TDResizerView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TDResizerView-Info.plist"; sourceTree = "<group>"; };
+		888C42241682211F00188388 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		888C42261682211F00188388 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		888C42281682211F00188388 /* TDResizerView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TDResizerView-Prefix.pch"; sourceTree = "<group>"; };
+		888C42291682211F00188388 /* ViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewAppDelegate.h; sourceTree = "<group>"; };
+		888C422A1682211F00188388 /* ViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewAppDelegate.m; sourceTree = "<group>"; };
+		888C422C1682211F00188388 /* ViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewViewController.h; sourceTree = "<group>"; };
+		888C422D1682211F00188388 /* ViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewViewController.m; sourceTree = "<group>"; };
+		888C42301682211F00188388 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewViewController.xib; sourceTree = "<group>"; };
+		888C423B1682217D00188388 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		888C423E1682218B00188388 /* button_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_01.png; sourceTree = "<group>"; };
+		888C423F1682218B00188388 /* button_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_02.png; sourceTree = "<group>"; };
+		888C42401682218B00188388 /* close_gold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close_gold.png; sourceTree = "<group>"; };
+		888C42411682218B00188388 /* sampleImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sampleImage.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		888C42131682211F00188388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888C423C1682217D00188388 /* QuartzCore.framework in Frameworks */,
+				888C421B1682211F00188388 /* UIKit.framework in Frameworks */,
+				888C421D1682211F00188388 /* Foundation.framework in Frameworks */,
+				888C421F1682211F00188388 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		888C420B1682211F00188388 = {
+			isa = PBXGroup;
+			children = (
+				888C423B1682217D00188388 /* QuartzCore.framework */,
+				888C42201682211F00188388 /* TDResizerView */,
+				888C42191682211F00188388 /* Frameworks */,
+				888C42171682211F00188388 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		888C42171682211F00188388 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				888C42161682211F00188388 /* TDResizerView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		888C42191682211F00188388 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				888C423E1682218B00188388 /* button_01.png */,
+				888C423F1682218B00188388 /* button_02.png */,
+				888C42401682218B00188388 /* close_gold.png */,
+				888C42411682218B00188388 /* sampleImage.png */,
+				888C421A1682211F00188388 /* UIKit.framework */,
+				888C421C1682211F00188388 /* Foundation.framework */,
+				888C421E1682211F00188388 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		888C42201682211F00188388 /* TDResizerView */ = {
+			isa = PBXGroup;
+			children = (
+				888C42291682211F00188388 /* ViewAppDelegate.h */,
+				888C422A1682211F00188388 /* ViewAppDelegate.m */,
+				888C422C1682211F00188388 /* ViewViewController.h */,
+				888C422D1682211F00188388 /* ViewViewController.m */,
+				888C422F1682211F00188388 /* ViewViewController.xib */,
+				888C42211682211F00188388 /* Supporting Files */,
+			);
+			path = TDResizerView;
+			sourceTree = "<group>";
+		};
+		888C42211682211F00188388 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				888C42221682211F00188388 /* TDResizerView-Info.plist */,
+				888C42231682211F00188388 /* InfoPlist.strings */,
+				888C42261682211F00188388 /* main.m */,
+				888C42281682211F00188388 /* TDResizerView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		888C42151682211F00188388 /* TDResizerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 888C42341682211F00188388 /* Build configuration list for PBXNativeTarget "TDResizerView" */;
+			buildPhases = (
+				888C42121682211F00188388 /* Sources */,
+				888C42131682211F00188388 /* Frameworks */,
+				888C42141682211F00188388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TDResizerView;
+			productName = TDResizerView;
+			productReference = 888C42161682211F00188388 /* TDResizerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		888C420D1682211F00188388 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 888C42101682211F00188388 /* Build configuration list for PBXProject "TDResizerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 888C420B1682211F00188388;
+			productRefGroup = 888C42171682211F00188388 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				888C42151682211F00188388 /* TDResizerView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		888C42141682211F00188388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888C42251682211F00188388 /* InfoPlist.strings in Resources */,
+				888C42311682211F00188388 /* ViewViewController.xib in Resources */,
+				888C42421682218B00188388 /* button_01.png in Resources */,
+				888C42431682218B00188388 /* button_02.png in Resources */,
+				888C42441682218B00188388 /* close_gold.png in Resources */,
+				888C42451682218B00188388 /* sampleImage.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		888C42121682211F00188388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888C42271682211F00188388 /* main.m in Sources */,
+				888C422B1682211F00188388 /* ViewAppDelegate.m in Sources */,
+				888C422E1682211F00188388 /* ViewViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		888C42231682211F00188388 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				888C42241682211F00188388 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		888C422F1682211F00188388 /* ViewViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				888C42301682211F00188388 /* en */,
+			);
+			name = ViewViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		888C42321682211F00188388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		888C42331682211F00188388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		888C42351682211F00188388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TDResizerView/TDResizerView-Prefix.pch";
+				INFOPLIST_FILE = "TDResizerView/TDResizerView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		888C42361682211F00188388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TDResizerView/TDResizerView-Prefix.pch";
+				INFOPLIST_FILE = "TDResizerView/TDResizerView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		888C42101682211F00188388 /* Build configuration list for PBXProject "TDResizerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				888C42321682211F00188388 /* Debug */,
+				888C42331682211F00188388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		888C42341682211F00188388 /* Build configuration list for PBXNativeTarget "TDResizerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				888C42351682211F00188388 /* Debug */,
+				888C42361682211F00188388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 888C420D1682211F00188388 /* Project object */;
+}
