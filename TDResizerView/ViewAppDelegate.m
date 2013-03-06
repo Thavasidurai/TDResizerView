@@ -2,7 +2,7 @@
 //  ViewAppDelegate.m
 //  TDResizerView
 //
-//  Created by Thavasidurai on 19/12/12.
+//  Created by Thavasidurai N on 19/12/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
